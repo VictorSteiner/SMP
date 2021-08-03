@@ -52,7 +52,7 @@ es6 = ((4/52)+(4/51))*100;
 clc
 clear
 
-es7 = (4/52 * 4/51)*100;
+es7 = (4/52 * 3/51)*100;
 
 %% Question 8 - No simulation
 %  Beregn sandsynligheden for at et af kortene er hjerter es

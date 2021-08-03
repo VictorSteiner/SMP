@@ -56,20 +56,23 @@ es7 = (4/52 * 3/51)*100;
 
 %% Question 8 - No simulation
 %  Beregn sandsynligheden for at et af kortene er hjerter es
-% Pr(Esh) = Pr(EsH) + Pr(Esh)
+% Pr(Esh) = Pr(EsH) + Pr(!Esh, Esh)
 clc
 clear
 
 es8 = ((4/52*13/52)+(4/51*13/51))*100;
+es82 = ((4/52*13/52)+(51/52*(4/51*13/51)))*100;
 
 %% Question 9 - No simulation
 % Beregn sandsynligheden for at ingen af kortene er hjerter es
 % Ligesom Pr(E) = 1 - Pr(!E) er Pr(!E) = 1 - Pr(E)
 % Pr(!EsH) = 1 - Pr(EsH) + Pr(EsH)
+% Pr(!EsH) = Pr(!EsH, !EsH)
 clc
 clear
 
 es9 = (1 - ((4/52*13/52)+(4/51*13/51))) * 100;
+es91 = (51/52*50/51)*100;
 
 %% Question 10 - No simulation
 
